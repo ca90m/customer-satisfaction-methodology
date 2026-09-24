@@ -128,9 +128,9 @@ $$\Delta_{jk}^{P,E} = \left|R_{jk}^{P}-R_{jk}^{E}\right|.$$
 
 I considered the set of pairs
 
-$$S=\{(j,k):1\leq j<k\leq p\},$$
+$$S=\lbrace (j,k):1\leq j\lt k\leq p\rbrace ,$$
 
-where $p$ is the number of variables. The condition $j<k$ excludes the diagonal and avoids counting the same pair twice.
+where $p$ is the number of variables. The condition $j\lt k$ excludes the diagonal and avoids counting the same pair twice.
 
 I then calculated the mean of these differences:
 
@@ -140,7 +140,7 @@ I also calculated the 90th percentile of the absolute differences. The mean summ
 
 The combined criterion was defined as:
 
-$$C^{P,E} = \frac{ \lambda\,\overline{\Delta}^{P,E} + (1-\lambda)\, Q_{0.90}\!\left( \{\Delta_{jk}^{P,E}:(j,k)\in S\} \right) }{ N_E }, \qquad 0\leq\lambda\leq1,$$
+$$C^{P,E} = \frac{ \lambda\thinspace \overline{\Delta}^{P,E} + (1-\lambda)\thinspace  Q_{0.90}\negthinspace \left( \lbrace \Delta_{jk}^{P,E}:(j,k)\in S\rbrace  \right) }{ N_E }, \qquad 0\leq\lambda\leq1,$$
 
 where $N_E$ is the number of observations retained by alternative $E$, and $Q_{0.90}$ is the 90th percentile. I used $\lambda=0.5$, giving equal weight to both components.
 
@@ -148,7 +148,7 @@ For the same difference between matrices, dividing by $N_E$ favors the alternati
 
 ![Illustrative comparison of strategies for handling problematic cells.](figures/05_estrategias_en.png)
 
-*Figure 5. Illustrative comparison of strategies based on their differences from the pairwise Spearman matrix and the number of observations retained. The values and ranking of the alternatives are invented.*
+*Figure 5. Illustrative comparison of strategies using the criterion defined above. Three pairs from the MICE grid are shown to illustrate the choice based on computational cost when score differences are small. The scores and retained-sample percentages are invented.*
 
 The pairwise matrix serves as an empirical reference for the comparison. Proximity to it does not guarantee recovery of the associations that would be present in a fully observed dataset.
 
@@ -158,13 +158,13 @@ Each strategy had its own configuration choices. Some depended on the number of 
 
 For the alternative using MICE for both types of cells, the procedure had two stages: unanswered applicable items were imputed first, followed by non-evaluative responses. I defined $m_{\mathrm{blanks}}$ as the number of datasets generated in the first stage, and $m_{\mathrm{NE}}$ as the number generated in the second stage for each dataset from the first. I explored:
 
-$$m_{\mathrm{blanks}},\,m_{\mathrm{NE}}\in\{2,5,10,15\}.$$
+$$m_{\mathrm{blanks}},\thinspace m_{\mathrm{NE}}\in\lbrace 2,5,10,15\rbrace .$$
 
 In this procedure, the total number of datasets generated was:
 
-$$m_{\mathrm{total}} = m_{\mathrm{blanks}}\,m_{\mathrm{NE}}.$$
+$$m_{\mathrm{total}} = m_{\mathrm{blanks}}\thinspace m_{\mathrm{NE}}.$$
 
-The alternatives were compared using the criterion defined above, while also considering their computational cost. The final choice incorporated parsimony: when score differences were small, I prioritized a configuration that required generating fewer imputed datasets.
+The alternatives were compared using the criterion defined above, while also considering their computational cost. Within MICE, the configuration $(m_{\mathrm{blanks}},m_{\mathrm{NE}})=(2,2)$ had the highest score among the pairs evaluated. Since the differences between pairs were small under this criterion, I chose that configuration for its lower computational cost: it generated four imputed datasets in the two-stage procedure.
 
 I also considered the stochastic nature of the procedure, which meant that small differences between configurations could depend on the seeds used.
 

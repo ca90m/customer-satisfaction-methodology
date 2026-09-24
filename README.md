@@ -128,9 +128,9 @@ $$\Delta_{jk}^{P,E} = \left|R_{jk}^{P}-R_{jk}^{E}\right|.$$
 
 Consideré el conjunto de pares
 
-$$S=\{(j,k):1\leq j<k\leq p\},$$
+$$S=\lbrace (j,k):1\leq j\lt k\leq p\rbrace ,$$
 
-donde $p$ es la cantidad de variables. La condición $j<k$ excluye la diagonal y evita contar dos veces el mismo par.
+donde $p$ es la cantidad de variables. La condición $j\lt k$ excluye la diagonal y evita contar dos veces el mismo par.
 
 A partir de esas diferencias, calculé su media:
 
@@ -140,7 +140,7 @@ También calculé el percentil 90 de las diferencias absolutas. La media resume 
 
 El criterio combinado quedó definido como:
 
-$$C^{P,E} = \frac{ \lambda\,\overline{\Delta}^{P,E} + (1-\lambda)\, Q_{0.90}\!\left( \{\Delta_{jk}^{P,E}:(j,k)\in S\} \right) }{ N_E }, \qquad 0\leq\lambda\leq1,$$
+$$C^{P,E} = \frac{ \lambda\thinspace \overline{\Delta}^{P,E} + (1-\lambda)\thinspace  Q_{0.90}\negthinspace \left( \lbrace \Delta_{jk}^{P,E}:(j,k)\in S\rbrace  \right) }{ N_E }, \qquad 0\leq\lambda\leq1,$$
 
 donde $N_E$ es la cantidad de observaciones conservadas por la alternativa $E$, y $Q_{0.90}$ es el percentil 90. Utilicé $\lambda=0.5$, dando el mismo peso a ambos componentes.
 
@@ -148,7 +148,7 @@ Para una misma diferencia entre matrices, la división por $N_E$ favorece a la a
 
 ![Comparación ilustrativa entre estrategias de tratamiento de celdas problemáticas.](figures/05_estrategias.png)
 
-*Figura 5. Comparación ilustrativa de estrategias según las diferencias respecto de la matriz de Spearman pairwise y la cantidad de observaciones conservadas. Los valores y el orden de las alternativas son inventados.*
+*Figura 5. Comparación ilustrativa de estrategias mediante el criterio definido. Se muestran tres pares de la grilla de MICE para ilustrar la elección por costo computacional ante diferencias pequeñas de score. Los scores y porcentajes de muestra retenida son inventados.*
 
 La matriz pairwise funciona como referencia empírica de la comparación. La proximidad a ella no garantiza recuperar las asociaciones que tendría una base completamente observada.
 
@@ -158,13 +158,13 @@ Cada estrategia tenía sus propias decisiones de configuración. Algunas depend�
 
 Para la alternativa que utilizaba MICE en ambos tipos de celdas, el procedimiento se organizó en dos etapas: primero se imputaban los blanks reales aplicables y después las respuestas no evaluativas. Definí $m_{\mathrm{blanks}}$ como la cantidad de bases generadas en la primera etapa, y $m_{\mathrm{NE}}$ como la cantidad generada en la segunda por cada base de la primera. Exploré:
 
-$$m_{\mathrm{blanks}},\,m_{\mathrm{NE}}\in\{2,5,10,15\}.$$
+$$m_{\mathrm{blanks}},\thinspace m_{\mathrm{NE}}\in\lbrace 2,5,10,15\rbrace .$$
 
 En este procedimiento, la cantidad total de bases generadas era:
 
-$$m_{\mathrm{total}} = m_{\mathrm{blanks}}\,m_{\mathrm{NE}}.$$
+$$m_{\mathrm{total}} = m_{\mathrm{blanks}}\thinspace m_{\mathrm{NE}}.$$
 
-Las alternativas se compararon mediante el criterio definido, considerando además su costo computacional. La elección final incorporó un criterio de parsimonia: ante diferencias pequeñas en el score, prioricé una configuración que requería generar menos bases imputadas.
+Las alternativas se compararon mediante el criterio definido, considerando además su costo computacional. Dentro de MICE, la configuración $(m_{\mathrm{blanks}},m_{\mathrm{NE}})=(2,2)$ tuvo el score más alto entre los pares evaluados. Como las diferencias entre pares eran pequeñas según ese criterio, elegí esa configuración por su menor costo computacional: generaba cuatro bases imputadas en el procedimiento de dos etapas.
 
 También consideré el carácter estocástico del procedimiento, por el cual pequeñas diferencias entre configuraciones podían depender de las semillas utilizadas.
 

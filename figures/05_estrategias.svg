@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2325" height="1315" viewBox="0 0 2325 1315">
-<title>Strategy comparison and computational cost</title>
-<desc>Illustrative comparison of eight strategies. The three MICE pairs shown have scores 0.0271, 0.0272, and 0.0273. The pair (2,2) is highlighted for lower computational cost and produces four datasets, versus 25 or 100. All scores and percentages are invented and do not represent thesis results.</desc>
+<title>Comparación de estrategias y costo computacional</title>
+<desc>Comparación ilustrativa de ocho estrategias. Los tres pares MICE mostrados tienen scores 0.0271, 0.0272 y 0.0273. El par (2,2) se destaca por menor costo computacional y produce cuatro bases, frente a 25 o 100. Todos los scores y porcentajes son inventados; no representan resultados de la tesis.</desc>
 <rect x="0" y="0" width="2325" height="1315" rx="0" fill="#f7f9fb" stroke="none" stroke-width="1"/>
-<text x="70" y="67" font-family="DejaVu Sans" font-size="42" font-weight="bold" text-anchor="start" fill="#1f3555">Strategy comparison and computational cost</text>
-<text x="70" y="121" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#62758e">Illustrative example: the MICE pairs shown have very similar scores.</text>
-<text x="70" y="161" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#62758e">The number of imputed datasets helps assess the computational cost of each pair.</text>
+<text x="70" y="67" font-family="DejaVu Sans" font-size="42" font-weight="bold" text-anchor="start" fill="#1f3555">Comparación de estrategias y costo computacional</text>
+<text x="70" y="121" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#62758e">Ejemplo ilustrativo: los pares MICE mostrados tienen scores muy próximos.</text>
+<text x="70" y="161" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#62758e">La cantidad de bases imputadas permite considerar el costo computacional de cada par.</text>
 <rect x="805" y="270" width="1050" height="720" rx="0" fill="white" stroke="none" stroke-width="1"/>
 <rect x="50" y="448" width="2225" height="84" rx="10" fill="#eaf3ed" stroke="none" stroke-width="1"/>
-<text x="772" y="247" font-family="DejaVu Sans" font-size="26" font-weight="bold" text-anchor="end" fill="#1f3555">Strategy</text>
-<text x="2000" y="225" font-family="DejaVu Sans" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f3555">Imputed datasets</text>
-<text x="2000" y="257" font-family="DejaVu Sans" font-size="21" font-weight="normal" text-anchor="middle" fill="#1f3555">(two-stage MICE)</text>
-<text x="2205" y="225" font-family="DejaVu Sans" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f3555">Sample</text>
-<text x="2205" y="257" font-family="DejaVu Sans" font-size="21" font-weight="normal" text-anchor="middle" fill="#1f3555">retained</text>
+<text x="772" y="247" font-family="DejaVu Sans" font-size="26" font-weight="bold" text-anchor="end" fill="#1f3555">Estrategia</text>
+<text x="2000" y="225" font-family="DejaVu Sans" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f3555">Bases imputadas</text>
+<text x="2000" y="257" font-family="DejaVu Sans" font-size="21" font-weight="normal" text-anchor="middle" fill="#1f3555">(MICE en dos etapas)</text>
+<text x="2205" y="225" font-family="DejaVu Sans" font-size="23" font-weight="bold" text-anchor="middle" fill="#1f3555">Muestra</text>
+<text x="2205" y="257" font-family="DejaVu Sans" font-size="21" font-weight="normal" text-anchor="middle" fill="#1f3555">retenida</text>
 <line x1="805.0" y1="270" x2="805.0" y2="990" stroke="#e5ecf3" stroke-width="1.5"/>
 <line x1="805.0" y1="990" x2="805.0" y2="999" stroke="#a5b6c8" stroke-width="1.5"/>
 <text x="805.0" y="1029" font-family="DejaVu Sans" font-size="24" font-weight="normal" text-anchor="middle" fill="#62758e">0.00</text>
@@ -39,48 +39,48 @@
 <line x1="805" y1="990" x2="1855" y2="990" stroke="#b9c9d9" stroke-width="1.5"/>
 <rect x="805" y="285" width="379.4" height="50" rx="0" fill="#9fb3c6" stroke="none" stroke-width="1"/>
 <text x="1201.4" y="319" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#1f3555">0.0271</text>
-<text x="772" y="303" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Item nonresponse: MICE (m=10)</text>
-<text x="772" y="332" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Non-evaluative responses: MICE (m=10)</text>
+<text x="772" y="303" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Blanks reales: MICE (m=10)</text>
+<text x="772" y="332" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Respuestas no evaluativas: MICE (m=10)</text>
 <text x="2000" y="320" font-family="DejaVu Sans" font-size="29" font-weight="normal" text-anchor="middle" fill="#1f3555">100</text>
 <text x="2205" y="320" font-family="DejaVu Sans" font-size="28" font-weight="normal" text-anchor="middle" fill="#62758e">94%</text>
 <rect x="805" y="375" width="380.8" height="50" rx="0" fill="#9fb3c6" stroke="none" stroke-width="1"/>
 <text x="1202.8" y="409" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#1f3555">0.0272</text>
-<text x="772" y="393" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Item nonresponse: MICE (m=5)</text>
-<text x="772" y="422" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Non-evaluative responses: MICE (m=5)</text>
+<text x="772" y="393" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Blanks reales: MICE (m=5)</text>
+<text x="772" y="422" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Respuestas no evaluativas: MICE (m=5)</text>
 <text x="2000" y="410" font-family="DejaVu Sans" font-size="29" font-weight="normal" text-anchor="middle" fill="#1f3555">25</text>
 <text x="2205" y="410" font-family="DejaVu Sans" font-size="28" font-weight="normal" text-anchor="middle" fill="#62758e">94%</text>
 <rect x="805" y="465" width="382.20000000000005" height="50" rx="0" fill="#246443" stroke="none" stroke-width="1"/>
 <text x="1204.2" y="499" font-family="DejaVu Sans" font-size="27" font-weight="bold" text-anchor="start" fill="#246443">0.0273</text>
-<text x="772" y="483" font-family="DejaVu Sans" font-size="26" font-weight="bold" text-anchor="end" fill="#246443">Item nonresponse: MICE (m=2)</text>
-<text x="772" y="512" font-family="DejaVu Sans" font-size="26" font-weight="bold" text-anchor="end" fill="#246443">Non-evaluative responses: MICE (m=2)</text>
+<text x="772" y="483" font-family="DejaVu Sans" font-size="26" font-weight="bold" text-anchor="end" fill="#246443">Blanks reales: MICE (m=2)</text>
+<text x="772" y="512" font-family="DejaVu Sans" font-size="26" font-weight="bold" text-anchor="end" fill="#246443">Respuestas no evaluativas: MICE (m=2)</text>
 <text x="2000" y="500" font-family="DejaVu Sans" font-size="29" font-weight="bold" text-anchor="middle" fill="#246443">4</text>
 <text x="2205" y="500" font-family="DejaVu Sans" font-size="28" font-weight="bold" text-anchor="middle" fill="#246443">94%</text>
 <rect x="805" y="555" width="467.6" height="50" rx="0" fill="#9fb3c6" stroke="none" stroke-width="1"/>
 <text x="1289.6" y="589" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#1f3555">0.0334</text>
-<text x="772" y="573" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Item nonresponse: MICE (m=2)</text>
-<text x="772" y="602" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Non-evaluative responses: median</text>
+<text x="772" y="573" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Blanks reales: MICE (m=2)</text>
+<text x="772" y="602" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Respuestas no evaluativas: mediana</text>
 <text x="2205" y="590" font-family="DejaVu Sans" font-size="28" font-weight="normal" text-anchor="middle" fill="#62758e">94%</text>
 <rect x="805" y="645" width="548.8" height="50" rx="0" fill="#9fb3c6" stroke="none" stroke-width="1"/>
 <text x="1370.8" y="679" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#1f3555">0.0392</text>
-<text x="772" y="663" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Item nonresponse: median</text>
-<text x="772" y="692" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Non-evaluative responses: MICE (m=2)</text>
+<text x="772" y="663" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Blanks reales: mediana</text>
+<text x="772" y="692" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Respuestas no evaluativas: MICE (m=2)</text>
 <text x="2205" y="680" font-family="DejaVu Sans" font-size="28" font-weight="normal" text-anchor="middle" fill="#62758e">94%</text>
 <rect x="805" y="735" width="655.2" height="50" rx="0" fill="#9fb3c6" stroke="none" stroke-width="1"/>
 <text x="1477.2" y="769" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#1f3555">0.0468</text>
-<text x="772" y="769" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Median (global)</text>
+<text x="772" y="769" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Mediana (global)</text>
 <text x="2205" y="770" font-family="DejaVu Sans" font-size="28" font-weight="normal" text-anchor="middle" fill="#62758e">94%</text>
 <rect x="805" y="825" width="729.4" height="50" rx="0" fill="#9fb3c6" stroke="none" stroke-width="1"/>
 <text x="1551.4" y="859" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#1f3555">0.0521</text>
-<text x="772" y="859" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Mean (global)</text>
+<text x="772" y="859" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Media (global)</text>
 <text x="2205" y="860" font-family="DejaVu Sans" font-size="28" font-weight="normal" text-anchor="middle" fill="#62758e">94%</text>
 <rect x="805" y="915" width="917.0000000000001" height="50" rx="0" fill="#9fb3c6" stroke="none" stroke-width="1"/>
 <text x="1739.0" y="949" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="start" fill="#1f3555">0.0655</text>
-<text x="772" y="949" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Complete cases (drop incomplete observations)</text>
+<text x="772" y="949" font-family="DejaVu Sans" font-size="26" font-weight="normal" text-anchor="end" fill="#62758e">Casos completos (eliminar observaciones)</text>
 <text x="2205" y="950" font-family="DejaVu Sans" font-size="28" font-weight="bold" text-anchor="middle" fill="#c52d2d">21%</text>
-<text x="1330.0" y="1071" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="middle" fill="#1f3555">Combined criterion score (lower is better)</text>
+<text x="1330.0" y="1071" font-family="DejaVu Sans" font-size="27" font-weight="normal" text-anchor="middle" fill="#1f3555">Score del criterio combinado (menor es mejor)</text>
 <rect x="70" y="1110" width="2185" height="102" rx="12" fill="#eaf3ed" stroke="#9cbea8" stroke-width="1.5"/>
-<text x="93" y="1150" font-family="DejaVu Sans" font-size="29" font-weight="bold" text-anchor="start" fill="#246443">Selected for lower computational cost: (2,2)</text>
-<text x="93" y="1188" font-family="DejaVu Sans" font-size="25" font-weight="normal" text-anchor="start" fill="#246443">Highest score among the MICE pairs shown, with 4 imputed datasets instead of 25 or 100.</text>
-<text x="70" y="1250" font-family="DejaVu Sans" font-size="24" font-weight="normal" text-anchor="start" fill="#62758e">Scores and percentages are invented. Three pairs from the grid are shown.</text>
-<text x="70" y="1284" font-family="DejaVu Sans" font-size="22" font-weight="normal" text-anchor="start" fill="#62758e">Grid at each stage: {2, 5, 10, 15}. Number of datasets = product of the two m values.</text>
+<text x="93" y="1150" font-family="DejaVu Sans" font-size="29" font-weight="bold" text-anchor="start" fill="#246443">Elección por menor costo computacional: (2,2)</text>
+<text x="93" y="1188" font-family="DejaVu Sans" font-size="25" font-weight="normal" text-anchor="start" fill="#246443">Tiene el mayor score entre los pares MICE mostrados, con 4 bases imputadas frente a 25 o 100.</text>
+<text x="70" y="1250" font-family="DejaVu Sans" font-size="24" font-weight="normal" text-anchor="start" fill="#62758e">Scores y porcentajes inventados. Se muestran tres pares de la grilla.</text>
+<text x="70" y="1284" font-family="DejaVu Sans" font-size="22" font-weight="normal" text-anchor="start" fill="#62758e">Grilla por etapa: {2, 5, 10, 15}. Cantidad de bases = producto de los dos valores de m.</text>
 </svg>
