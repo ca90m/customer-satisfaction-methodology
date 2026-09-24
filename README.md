@@ -2,9 +2,9 @@
 
 **Español** | [English](README.en.md)
 
-Este repositorio resume la metodología de mi tesis de Licenciatura en Ciencias de Datos de la Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales. El trabajo consistió en integrar encuestas de una cadena de supermercados y analizar qué aspectos de la experiencia de compra se asociaban con la satisfacción global.
+Este repositorio presenta un breve resumen de las principales decisiones metodológicas de mi tesis de Licenciatura en Ciencias de Datos de la Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales. El trabajo consistió en integrar encuestas de una cadena de supermercados y analizar qué aspectos de la experiencia de compra se asociaban con la satisfacción global.
 
-Por confidencialidad, se omiten el nombre de la empresa, los datos originales y los resultados numéricos. Todos los ejemplos y diagramas utilizan información inventada con fines ilustrativos. Los códigos y valores de esos ejemplos sirven únicamente para explicar los procedimientos.
+Por motivos de confidencialidad, no puedo publicar el nombre de la empresa, los datos originales ni los resultados numéricos. Todos los ejemplos y diagramas utilizan información inventada con fines ilustrativos. Los códigos y valores de esos ejemplos sirven únicamente para explicar los procedimientos.
 
 ## Índice
 

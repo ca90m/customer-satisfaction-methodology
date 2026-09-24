@@ -2,9 +2,9 @@
 
 [Español](README.md) | **English**
 
-This repository summarizes the methodology of my undergraduate thesis in Data Science (Licenciatura en Ciencias de Datos) at the University of Buenos Aires, Faculty of Exact and Natural Sciences. The work involved integrating surveys from a supermarket chain and analyzing which aspects of the shopping experience were associated with overall satisfaction.
+This repository provides a brief overview of the main methodological decisions in my undergraduate thesis in Data Science (Licenciatura en Ciencias de Datos) at the University of Buenos Aires, Faculty of Exact and Natural Sciences. The work involved integrating surveys from a supermarket chain and analyzing which aspects of the shopping experience were associated with overall satisfaction.
 
-To preserve confidentiality, the company name, original data, and numerical results are omitted. All examples and diagrams use invented information for illustrative purposes. The codes and values in these examples serve only to explain the procedures.
+Due to confidentiality restrictions, I cannot publish the company name, original data, or numerical results. All examples and diagrams use invented information for illustrative purposes. The codes and values in these examples serve only to explain the procedures.
 
 ## Contents
 
