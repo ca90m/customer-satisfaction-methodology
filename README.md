@@ -1,5 +1,7 @@
 # Análisis de encuestas de satisfacción: decisiones metodológicas
 
+**Español** | [English](README.en.md)
+
 Este repositorio resume la metodología de mi tesis de Licenciatura en Ciencias de Datos de la Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales. El trabajo consistió en integrar encuestas de una cadena de supermercados y analizar qué aspectos de la experiencia de compra se asociaban con la satisfacción global.
 
 Por confidencialidad, se omiten el nombre de la empresa, los datos originales y los resultados numéricos. Todos los ejemplos y diagramas utilizan información inventada con fines ilustrativos. Los códigos y valores de esos ejemplos sirven únicamente para explicar los procedimientos.
@@ -122,48 +124,23 @@ Elegí Spearman porque las variables evaluativas provenían de escalas ordinales
 
 Sea $R^P$ la matriz de referencia y $R^E$ la matriz obtenida con una alternativa de tratamiento $E$. Para cada par de variables, definí la diferencia absoluta:
 
-$$
-\Delta_{jk}^{P,E}
-=
-\left|R_{jk}^{P}-R_{jk}^{E}\right|.
-$$
+$$\Delta_{jk}^{P,E} = \left|R_{jk}^{P}-R_{jk}^{E}\right|.$$
 
 Consideré el conjunto de pares
 
-$$
-S=\{(j,k):1\leq j<k\leq p\},
-$$
+$$S=\{(j,k):1\leq j<k\leq p\},$$
 
 donde $p$ es la cantidad de variables. La condición $j<k$ excluye la diagonal y evita contar dos veces el mismo par.
 
 A partir de esas diferencias, calculé su media:
 
-$$
-\overline{\Delta}^{P,E}
-=
-\frac{1}{|S|}
-\sum_{(j,k)\in S}\Delta_{jk}^{P,E}.
-$$
+$$\overline{\Delta}^{P,E} = \frac{1}{|S|} \sum_{(j,k)\in S}\Delta_{jk}^{P,E}.$$
 
 También calculé el percentil 90 de las diferencias absolutas. La media resume el cambio general entre las matrices, mientras que el percentil 90 incorpora las diferencias situadas en la parte alta de la distribución.
 
 El criterio combinado quedó definido como:
 
-$$
-C^{P,E}
-=
-\frac{
-\lambda\,\overline{\Delta}^{P,E}
-+
-(1-\lambda)\,
-Q_{0.90}\!\left(
-\{\Delta_{jk}^{P,E}:(j,k)\in S\}
-\right)
-}{
-N_E
-},
-\qquad 0\leq\lambda\leq1,
-$$
+$$C^{P,E} = \frac{ \lambda\,\overline{\Delta}^{P,E} + (1-\lambda)\, Q_{0.90}\!\left( \{\Delta_{jk}^{P,E}:(j,k)\in S\} \right) }{ N_E }, \qquad 0\leq\lambda\leq1,$$
 
 donde $N_E$ es la cantidad de observaciones conservadas por la alternativa $E$, y $Q_{0.90}$ es el percentil 90. Utilicé $\lambda=0.5$, dando el mismo peso a ambos componentes.
 
@@ -181,17 +158,11 @@ Cada estrategia tenía sus propias decisiones de configuración. Algunas depend�
 
 Para la alternativa que utilizaba MICE en ambos tipos de celdas, el procedimiento se organizó en dos etapas: primero se imputaban los blanks reales aplicables y después las respuestas no evaluativas. Definí $m_{\mathrm{blanks}}$ como la cantidad de bases generadas en la primera etapa, y $m_{\mathrm{NE}}$ como la cantidad generada en la segunda por cada base de la primera. Exploré:
 
-$$
-m_{\mathrm{blanks}},\,m_{\mathrm{NE}}\in\{2,5,10,15\}.
-$$
+$$m_{\mathrm{blanks}},\,m_{\mathrm{NE}}\in\{2,5,10,15\}.$$
 
 En este procedimiento, la cantidad total de bases generadas era:
 
-$$
-m_{\mathrm{total}}
-=
-m_{\mathrm{blanks}}\,m_{\mathrm{NE}}.
-$$
+$$m_{\mathrm{total}} = m_{\mathrm{blanks}}\,m_{\mathrm{NE}}.$$
 
 Las alternativas se compararon mediante el criterio definido, considerando además su costo computacional. La elección final incorporó un criterio de parsimonia: ante diferencias pequeñas en el score, prioricé una configuración que requería generar menos bases imputadas.
 
