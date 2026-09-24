@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="775" viewBox="0 0 2200 775">
+<rect width="2200" height="775" fill="#f7f9fb"/>
+<rect x="50" y="38" width="420" height="638" rx="32" fill="#f7f9fb" stroke="#4f7cab" stroke-width="4"/>
+<rect x="50" y="38" width="420" height="195" rx="28" fill="#4f7cab" stroke="none" stroke-width="1"/>
+<text x="260.0" y="74" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">Type C</text>
+<text x="162" y="109" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle">Route 1</text>
+<text x="360" y="109" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle">Wave 0</text>
+<text x="260.0" y="162" font-family="DejaVu Sans, sans-serif" font-size="42" font-weight="700" fill="white" text-anchor="middle">p9.1</text>
+<text x="260.0" y="209" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" fill="white" text-anchor="middle">Food variety</text>
+<rect x="60" y="244" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="102" y="287" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 1</text>
+<rect x="317" y="252" width="80" height="54" rx="14" fill="white" stroke="#4f7cab" stroke-width="3.5"/>
+<text x="357" y="288" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#4f7cab" text-anchor="middle">4</text>
+<rect x="60" y="327" width="400" height="69" rx="11" fill="#f3f3f3" stroke="#dddddd" stroke-width="1.2"/>
+<text x="102" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 2</text>
+<text x="357" y="372" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="60" y="410" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="102" y="453" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 3</text>
+<rect x="317" y="418" width="80" height="54" rx="14" fill="white" stroke="#4f7cab" stroke-width="3.5"/>
+<text x="357" y="454" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#4f7cab" text-anchor="middle">5</text>
+<rect x="60" y="493" width="400" height="69" rx="11" fill="#f3f3f3" stroke="#dddddd" stroke-width="1.2"/>
+<text x="102" y="536" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 4</text>
+<text x="357" y="538" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="60" y="576" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="102" y="619" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 5</text>
+<text x="357" y="621" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="500" y="38" width="420" height="638" rx="32" fill="#f7f9fb" stroke="#ed8700" stroke-width="4"/>
+<rect x="500" y="38" width="420" height="195" rx="28" fill="#ed8700" stroke="none" stroke-width="1"/>
+<text x="710.0" y="74" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">Type C</text>
+<text x="612" y="109" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle">Route 2</text>
+<text x="810" y="109" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle">Wave 0</text>
+<text x="710.0" y="162" font-family="DejaVu Sans, sans-serif" font-size="42" font-weight="700" fill="white" text-anchor="middle">p10.1</text>
+<text x="710.0" y="209" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" fill="white" text-anchor="middle">Food variety</text>
+<rect x="510" y="244" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="552" y="287" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 1</text>
+<text x="807" y="289" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="510" y="327" width="400" height="69" rx="11" fill="#f3f3f3" stroke="#dddddd" stroke-width="1.2"/>
+<text x="552" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 2</text>
+<rect x="767" y="335" width="80" height="54" rx="14" fill="white" stroke="#ed8700" stroke-width="3.5"/>
+<text x="807" y="371" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#ed8700" text-anchor="middle">3</text>
+<rect x="510" y="410" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="552" y="453" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 3</text>
+<text x="807" y="455" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="510" y="493" width="400" height="69" rx="11" fill="#f3f3f3" stroke="#dddddd" stroke-width="1.2"/>
+<text x="552" y="536" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 4</text>
+<text x="807" y="538" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="510" y="576" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="552" y="619" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 5</text>
+<text x="807" y="621" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="950" y="38" width="420" height="638" rx="32" fill="#f7f9fb" stroke="#2f8c39" stroke-width="4"/>
+<rect x="950" y="38" width="420" height="195" rx="28" fill="#2f8c39" stroke="none" stroke-width="1"/>
+<text x="1160.0" y="74" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="white" text-anchor="middle">Type C</text>
+<text x="1062" y="109" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle">Route 3</text>
+<text x="1260" y="109" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle">Wave 0</text>
+<text x="1160.0" y="162" font-family="DejaVu Sans, sans-serif" font-size="42" font-weight="700" fill="white" text-anchor="middle">p11.1</text>
+<text x="1160.0" y="209" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" fill="white" text-anchor="middle">Food variety</text>
+<rect x="960" y="244" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="1002" y="287" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 1</text>
+<text x="1257" y="289" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="960" y="327" width="400" height="69" rx="11" fill="#f3f3f3" stroke="#dddddd" stroke-width="1.2"/>
+<text x="1002" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 2</text>
+<text x="1257" y="372" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="960" y="410" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="1002" y="453" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 3</text>
+<text x="1257" y="455" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="960" y="493" width="400" height="69" rx="11" fill="#f3f3f3" stroke="#dddddd" stroke-width="1.2"/>
+<text x="1002" y="536" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 4</text>
+<rect x="1217" y="501" width="80" height="54" rx="14" fill="white" stroke="#2f8c39" stroke-width="3.5"/>
+<text x="1257" y="537" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#2f8c39" text-anchor="middle">4</text>
+<rect x="960" y="576" width="400" height="69" rx="11" fill="white" stroke="#dddddd" stroke-width="1.2"/>
+<text x="1002" y="619" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 5</text>
+<text x="1257" y="621" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<rect x="1730" y="38" width="420" height="638" rx="32" fill="#eee8f8" stroke="#5b2c73" stroke-width="4"/>
+<rect x="1730" y="38" width="420" height="195" rx="28" fill="#5b2c73" stroke="none" stroke-width="1"/>
+<text x="1940.0" y="88" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="white" text-anchor="middle">Canonical variable</text>
+<text x="1940.0" y="156" font-family="DejaVu Sans, sans-serif" font-size="43" font-weight="700" fill="white" text-anchor="middle">var_01</text>
+<text x="1940.0" y="211" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" fill="white" text-anchor="middle">Food variety</text>
+<rect x="1740" y="244" width="400" height="69" rx="11" fill="white" stroke="#d5c4ef" stroke-width="1.2"/>
+<text x="1782" y="287" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 1</text>
+<rect x="1997" y="252" width="80" height="54" rx="14" fill="white" stroke="#5b2c73" stroke-width="3.5"/>
+<text x="2037" y="288" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#5b2c73" text-anchor="middle">4</text>
+<rect x="1740" y="327" width="400" height="69" rx="11" fill="#f3f3f3" stroke="#d5c4ef" stroke-width="1.2"/>
+<text x="1782" y="370" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 2</text>
+<rect x="1997" y="335" width="80" height="54" rx="14" fill="white" stroke="#5b2c73" stroke-width="3.5"/>
+<text x="2037" y="371" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#5b2c73" text-anchor="middle">3</text>
+<rect x="1740" y="410" width="400" height="69" rx="11" fill="white" stroke="#d5c4ef" stroke-width="1.2"/>
+<text x="1782" y="453" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 3</text>
+<rect x="1997" y="418" width="80" height="54" rx="14" fill="white" stroke="#5b2c73" stroke-width="3.5"/>
+<text x="2037" y="454" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#5b2c73" text-anchor="middle">5</text>
+<rect x="1740" y="493" width="400" height="69" rx="11" fill="#f3f3f3" stroke="#d5c4ef" stroke-width="1.2"/>
+<text x="1782" y="536" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 4</text>
+<rect x="1997" y="501" width="80" height="54" rx="14" fill="white" stroke="#5b2c73" stroke-width="3.5"/>
+<text x="2037" y="537" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#5b2c73" text-anchor="middle">4</text>
+<rect x="1740" y="576" width="400" height="69" rx="11" fill="white" stroke="#d5c4ef" stroke-width="1.2"/>
+<text x="1782" y="619" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#6f7478" text-anchor="start">Respondent 5</text>
+<text x="2037" y="621" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" fill="#b8babb" text-anchor="middle">—</text>
+<text x="1550" y="393" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#5b2c73" text-anchor="middle">collapse</text>
+<line x1="1410" y1="443" x2="1667.0" y2="443.0" stroke="#5b2c73" stroke-width="7" stroke-linecap="round"/>
+<polygon points="1690,443 1667.0,428.51 1667.0,457.49" fill="#5b2c73"/>
+<text x="1550" y="491" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" fill="#6f7478" text-anchor="middle">First non-empty</text>
+<text x="1550" y="521" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" fill="#6f7478" text-anchor="middle">value</text>
+<text x="50" y="739" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="400" fill="#8090a1" text-anchor="start">Illustrative example. All question codes and responses are fictional.</text>
+</svg>
