@@ -144,11 +144,11 @@ $$C^{P,E} = \frac{ \lambda\thinspace \overline{\Delta}^{P,E} + (1-\lambda)\thins
 
 donde $N_E$ es la cantidad de observaciones conservadas por la alternativa $E$, y $Q_{0.90}$ es el percentil 90. Utilicé $\lambda=0.5$, dando el mismo peso a ambos componentes.
 
-Para una misma diferencia entre matrices, la división por $N_E$ favorece a la alternativa que conserva más observaciones. Por lo tanto, el criterio combina proximidad a la referencia y retención de muestra.
+La división por $N_E$ incorpora una preferencia por retener observaciones. A igual discrepancia entre matrices, una alternativa que conserva la mitad de las observaciones obtiene el doble de score. Esta ponderación es una decisión de diseño del criterio para combinar proximidad a la referencia y retención de muestra.
 
 ![Comparación ilustrativa entre estrategias de tratamiento de celdas problemáticas.](figures/05_estrategias.png)
 
-*Figura 5. Comparación ilustrativa de estrategias mediante el criterio definido. Se muestran tres pares de la grilla de MICE para ilustrar la elección por costo computacional ante diferencias pequeñas de score. Los scores y porcentajes de muestra retenida son inventados.*
+*Figura 5. Comparación ilustrativa de ocho alternativas mediante el criterio definido. Tres corresponden a configuraciones de la grilla de MICE y permiten ilustrar la elección por costo computacional ante diferencias pequeñas de score. Los scores y porcentajes de muestra retenida son inventados.*
 
 La matriz pairwise funciona como referencia empírica de la comparación. La proximidad a ella no garantiza recuperar las asociaciones que tendría una base completamente observada.
 
@@ -164,7 +164,7 @@ En este procedimiento, la cantidad total de bases generadas era:
 
 $$m_{\mathrm{total}} = m_{\mathrm{blanks}}\thinspace m_{\mathrm{NE}}.$$
 
-Las alternativas se compararon mediante el criterio definido, considerando además su costo computacional. Dentro de MICE, la configuración $(m_{\mathrm{blanks}},m_{\mathrm{NE}})=(2,2)$ tuvo el score más alto entre los pares evaluados. Como las diferencias entre pares eran pequeñas según ese criterio, elegí esa configuración por su menor costo computacional: generaba cuatro bases imputadas en el procedimiento de dos etapas.
+Las alternativas se compararon mediante el criterio definido, considerando además su costo computacional. Dentro de MICE, la configuración $(m_{\mathrm{blanks}},m_{\mathrm{NE}})=(2,2)$ tuvo el peor score entre los pares evaluados. Como las diferencias entre pares eran pequeñas según ese criterio, elegí esa configuración por su menor costo computacional: generaba cuatro bases imputadas en el procedimiento de dos etapas.
 
 También consideré el carácter estocástico del procedimiento, por el cual pequeñas diferencias entre configuraciones podían depender de las semillas utilizadas.
 

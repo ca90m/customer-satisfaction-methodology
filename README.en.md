@@ -144,11 +144,11 @@ $$C^{P,E} = \frac{ \lambda\thinspace \overline{\Delta}^{P,E} + (1-\lambda)\thins
 
 where $N_E$ is the number of observations retained by alternative $E$, and $Q_{0.90}$ is the 90th percentile. I used $\lambda=0.5$, giving equal weight to both components.
 
-For the same difference between matrices, dividing by $N_E$ favors the alternative that retains more observations. The criterion therefore combines proximity to the reference with sample retention.
+Dividing by $N_E$ introduces a preference for retaining observations. For the same discrepancy between matrices, an alternative that retains half as many observations receives twice the score. This weighting is a design choice in the criterion to combine proximity to the reference with sample retention.
 
 ![Illustrative comparison of strategies for handling problematic cells.](figures/05_estrategias_en.png)
 
-*Figure 5. Illustrative comparison of strategies using the criterion defined above. Three pairs from the MICE grid are shown to illustrate the choice based on computational cost when score differences are small. The scores and retained-sample percentages are invented.*
+*Figure 5. Illustrative comparison of eight alternatives using the criterion defined above. Three are configurations from the MICE grid and illustrate the choice based on computational cost when score differences are small. The scores and retained-sample percentages are invented.*
 
 The pairwise matrix serves as an empirical reference for the comparison. Proximity to it does not guarantee recovery of the associations that would be present in a fully observed dataset.
 
@@ -164,7 +164,7 @@ In this procedure, the total number of datasets generated was:
 
 $$m_{\mathrm{total}} = m_{\mathrm{blanks}}\thinspace m_{\mathrm{NE}}.$$
 
-The alternatives were compared using the criterion defined above, while also considering their computational cost. Within MICE, the configuration $(m_{\mathrm{blanks}},m_{\mathrm{NE}})=(2,2)$ had the highest score among the pairs evaluated. Since the differences between pairs were small under this criterion, I chose that configuration for its lower computational cost: it generated four imputed datasets in the two-stage procedure.
+The alternatives were compared using the criterion defined above, while also considering their computational cost. Within MICE, the configuration $(m_{\mathrm{blanks}},m_{\mathrm{NE}})=(2,2)$ had the worst score among the pairs evaluated. Since the differences between pairs were small under this criterion, I chose that configuration for its lower computational cost: it generated four imputed datasets in the two-stage procedure.
 
 I also considered the stochastic nature of the procedure, which meant that small differences between configurations could depend on the seeds used.
 
