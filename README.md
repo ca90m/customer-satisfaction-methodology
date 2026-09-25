@@ -144,6 +144,10 @@ $$C^{P,E} = \frac{ \lambda\thinspace \overline{\Delta}^{P,E} + (1-\lambda)\thins
 
 donde $N_E$ es la cantidad de observaciones conservadas por la alternativa $E$, y $Q_{0.90}$ es el percentil 90. Utilicé $\lambda=0.5$, dando el mismo peso a ambos componentes.
 
+Un valor menor de este score indica una alternativa preferible según el criterio. Entre dos alternativas $E$ y $E'$, este criterio favorece a $E$ si:
+
+$$C^{P,E}\lt C^{P,E'}.$$
+
 La división por $N_E$ incorpora una preferencia por retener observaciones. A igual discrepancia entre matrices, una alternativa que conserva la mitad de las observaciones obtiene el doble de score. Esta ponderación es una decisión de diseño del criterio para combinar proximidad a la referencia y retención de muestra.
 
 ![Comparación ilustrativa entre estrategias de tratamiento de celdas problemáticas.](figures/05_estrategias.png)

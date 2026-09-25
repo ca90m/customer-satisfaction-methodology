@@ -144,6 +144,10 @@ $$C^{P,E} = \frac{ \lambda\thinspace \overline{\Delta}^{P,E} + (1-\lambda)\thins
 
 where $N_E$ is the number of observations retained by alternative $E$, and $Q_{0.90}$ is the 90th percentile. I used $\lambda=0.5$, giving equal weight to both components.
 
+A lower score indicates a preferable alternative under this criterion. Between two alternatives $E$ and $E'$, the criterion favors $E$ if:
+
+$$C^{P,E}\lt C^{P,E'}.$$
+
 Dividing by $N_E$ introduces a preference for retaining observations. For the same discrepancy between matrices, an alternative that retains half as many observations receives twice the score. This weighting is a design choice in the criterion to combine proximity to the reference with sample retention.
 
 ![Illustrative comparison of strategies for handling problematic cells.](figures/05_estrategias_en.png)
