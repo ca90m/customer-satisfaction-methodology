@@ -4,9 +4,9 @@
 
 This repository presents a brief summary of the main methodological decisions in my Licenciatura thesis in Data Science at the University of Buenos Aires, Faculty of Exact and Natural Sciences. The work involved integrating customer surveys from a supermarket chain and analysing which aspects of the shopping experience were associated with overall satisfaction.
 
-For confidentiality reasons, I cannot publish the name of the company or the results of the analysis. All examples and diagrams in this document use invented information for illustrative purposes. The codes and values in those examples serve only to explain the procedures.
+For confidentiality reasons, I cannot publish the name of the company or the results of the analysis.
 
-A reduced version of the [thesis](Thesis_anonymized_EN.pdf) is therefore the only one available.
+The diagrams in this summary use invented information: the codes and values serve only to illustrate the procedures. The [thesis](Thesis_anonymized_EN.pdf), in contrast, is the original document with the results chapters removed, so the methodology and dataset figures it reports are the actual ones.
 
 ## Contents
 
