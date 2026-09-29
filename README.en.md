@@ -6,7 +6,7 @@ This repository presents a brief summary of the main methodological decisions in
 
 For confidentiality reasons, I cannot publish the name of the company or the results of the analysis.
 
-The diagrams in this summary use invented information: the codes and values serve only to illustrate the procedures. The [thesis](Thesis_anonymized_EN.pdf), in contrast, is the original document with the results chapters removed, so the methodology and dataset figures it reports are the actual ones.
+For confidentiality reasons, I cannot disclose the company’s name or publish all the results of the analysis. Figure 4 uses fictitious values to recreate a chart that is not included in the published version of the [thesis](Thesis_anonymized_EN.pdf). The rest of the content, including Table C.3, comes from the original work.
 
 ## Contents
 
