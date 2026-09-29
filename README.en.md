@@ -146,17 +146,25 @@ $$C^{P,E} = \frac{ \lambda\thinspace \overline{\Delta}^{P,E} + (1-\lambda)\thins
 
 where $N_E$ is the number of observations retained by alternative $E$, and $Q_{0.90}$ is the 90th percentile. I used $\lambda=0.5$, giving equal weight to both components.
 
-A lower score indicates a preferable alternative under this criterion. Between two alternatives $E$ and $E'$, the criterion favors $E$ if:
+A lower score indicates a preferable alternative under this criterion. Between two alternatives $E$ and $E'$, the criterion favours $E$ if:
 
 $$C^{P,E}\lt C^{P,E'}.$$
 
-Dividing by $N_E$ introduces a preference for retaining observations. For the same discrepancy between matrices, an alternative that retains half as many observations receives twice the score. This weighting is a design choice in the criterion to combine proximity to the reference with sample retention.
+Dividing by $N_E$ builds in a preference for retaining observations. For the same discrepancy between matrices, an alternative that keeps half the observations gets twice the score. This weighting is a design decision of the criterion, combining proximity to the reference with sample retention.
 
-![Illustrative comparison of strategies for handling problematic cells.](figures/05_estrategias_en.png)
+| Rank | Strategy | m_blanks | m_5 | i | N_E | mean | p90 | score |
+|---|---|---|---|---|---|---|---|---|
+| 1 | MICE genuine blanks + MICE code 5 | 2 | 2 | — | 18,977 | 0.0214 | 0.0440 | 1.74 × 10⁻⁶ |
+| 2 | MICE 5 + median genuine blanks < i | — | 10 | 1 | 14,665 | 0.0171 | 0.0395 | 1.93 × 10⁻⁶ |
+| 3 | (MICE 5 + median genuine blanks) < i | — | 1 | 6 | 12,358 | 0.0145 | 0.0349 | 2.00 × 10⁻⁶ |
+| 4 | MICE 5 + median genuine blanks < i | — | 1 | 6 | 15,831 | 0.0208 | 0.0436 | 2.03 × 10⁻⁶ |
+| 5 | Complete-case | — | — | — | 4,697 | 0.0478 | 0.0739 | 1.30 × 10⁻⁵ |
 
-*Figure 5. Illustrative comparison of eight alternatives using the criterion defined above. Three are configurations from the MICE grid and illustrate the choice based on computational cost when score differences are small. The scores and retained-sample percentages are invented.*
+*Table C.3 of the thesis. Ranking of strategies by distance to the pairwise Spearman correlation matrix.*
 
-The pairwise matrix serves as an empirical reference for the comparison. Proximity to it does not guarantee recovery of the associations that would be present in a fully observed dataset.
+The clearest contrast is complete-case: discarding observations with problematic cells leaves 4,697 of the 18,977 available and at the same time produces the largest distance to the reference matrix.
+
+The pairwise matrix serves as an empirical reference for the comparison. Being close to it does not guarantee recovering the associations a fully observed dataset would show.
 
 ### Configuration search and parsimony
 
