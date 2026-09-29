@@ -4,7 +4,7 @@
 
 Este repositorio presenta un breve resumen de las principales decisiones metodológicas de mi tesis de Licenciatura en Ciencias de Datos de la Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales. El trabajo consistió en integrar encuestas de una cadena de supermercados y analizar qué aspectos de la experiencia de compra se asociaban con la satisfacción global.
 
-Por motivos de confidencialidad, no puedo publicar el nombre de la empresa ni todos los resultados del análisis. Los tres primeros diagramas son esquemas ilustrativos con datos inventados, y la Figura 4 reproduce con valores inventados un gráfico que no se incluye en la versión publicada de la [tesis](Tesis_anonimizada_ES.pdf). El resto del contenido, incluida la Tabla C.3, corresponde al trabajo original.
+Por motivos de confidencialidad, no puedo publicar el nombre de la empresa ni todos los resultados del análisis. La Figura 4 reproduce con valores inventados un gráfico que no se incluye en la versión publicada de la [tesis](Tesis_anonimizada_ES.pdf). El resto del contenido, incluida la Tabla C.3, corresponde al trabajo original.
 
 ## Índice
 
