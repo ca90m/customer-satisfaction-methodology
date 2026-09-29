@@ -162,10 +162,7 @@ La división por $N_E$ incorpora una preferencia por retener observaciones. A ig
 
 El contraste más claro es complete-case: descartar las observaciones con celdas problemáticas deja 4.697 de las 18.977 disponibles y produce a la vez la mayor distancia a la matriz de referencia.
 
-Dentro de la estrategia seleccionada, la comparación entre configuraciones de MICE se reporta en la Tabla C.4 de la tesis. La configuración adoptada, $m_{\text{blanks}} = m_5 = 2$, no fue la de mejor score entre las evaluadas: las diferencias entre configuraciones eran pequeñas y elegí la de menor costo computacional.
-
 La matriz pairwise funciona como referencia empírica de la comparación. La proximidad a ella no garantiza recuperar las asociaciones que tendría una base completamente observada.
-
 ### Búsqueda de configuraciones y parsimonia
 
 Cada estrategia tenía sus propias decisiones de configuración. Algunas dependían de la cantidad de imputaciones; otras, de la tolerancia de celdas problemáticas permitida por observación.
