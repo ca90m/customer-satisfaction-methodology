@@ -150,9 +150,15 @@ $$C^{P,E}\lt C^{P,E'}.$$
 
 La división por $N_E$ incorpora una preferencia por retener observaciones. A igual discrepancia entre matrices, una alternativa que conserva la mitad de las observaciones obtiene el doble de score. Esta ponderación es una decisión de diseño del criterio para combinar proximidad a la referencia y retención de muestra.
 
-![Comparación ilustrativa entre estrategias de tratamiento de celdas problemáticas.](figures/05_estrategias.png)
+| Rank | Estrategia | m_blanks | m_5 | i | N_E | media | p90 | score |
+|---|---|---|---|---|---|---|---|---|
+| 1 | MICE blanks reales + MICE 5 | 2 | 2 | — | 18.977 | 0,0214 | 0,0440 | 1,74 × 10⁻⁶ |
+| 2 | MICE 5 + mediana blanks reales < i | — | 10 | 1 | 14.665 | 0,0171 | 0,0395 | 1,93 × 10⁻⁶ |
+| 3 | (MICE 5 + mediana blanks reales) < i | — | 1 | 6 | 12.358 | 0,0145 | 0,0349 | 2,00 × 10⁻⁶ |
+| 4 | MICE 5 + mediana blanks reales < i | — | 1 | 6 | 15.831 | 0,0208 | 0,0436 | 2,03 × 10⁻⁶ |
+| 5 | Complete-case | — | — | — | 4.697 | 0,0478 | 0,0739 | 1,30 × 10⁻⁵ |
 
-*Figura 5. Comparación ilustrativa de ocho alternativas mediante el criterio definido. Tres corresponden a configuraciones de la grilla de MICE y permiten ilustrar la elección por costo computacional ante diferencias pequeñas de score. Los scores y porcentajes de muestra retenida son inventados.*
+*Tabla C.3 de la tesis. Ranking de estrategias según distancia a la matriz de correlación de Spearman pairwise.*
 
 La matriz pairwise funciona como referencia empírica de la comparación. La proximidad a ella no garantiza recuperar las asociaciones que tendría una base completamente observada.
 
