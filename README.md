@@ -6,7 +6,7 @@ Este repositorio presenta un breve resumen de las principales decisiones metodol
 
 Por motivos de confidencialidad, no puedo publicar el nombre de la empresa ni los resultados del análisis. Todos los ejemplos y diagramas de este documento utilizan información inventada con fines ilustrativos. Los códigos y valores de esos ejemplos sirven únicamente para explicar los procedimientos.
 
-En consecuencia, solo está disponible una versión reducida de la [tesis](Tesis_anonimizada_ES.pdf).
+En consecuencia, solo está disponible una versión reducida de la [tesis](Tesis_anonimizada_ES.pdf.pdf).
 
 ## Índice
 
