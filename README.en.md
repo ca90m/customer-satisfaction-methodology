@@ -6,7 +6,7 @@ This repository presents a brief summary of the main methodological decisions in
 
 For confidentiality reasons, I cannot publish the name of the company or the results of the analysis. All examples and diagrams in this document use invented information for illustrative purposes. The codes and values in those examples serve only to explain the procedures.
 
-A reduced version of the [thesis](Thesis_anonymized_EN.pdf) is therefore the only one available.
+A reduced version of the [thesis](Thesis_anonymized_EN.pdf.pdf) is therefore the only one available.
 
 ## Contents
 
